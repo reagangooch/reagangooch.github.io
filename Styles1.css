@@ -1,0 +1,21 @@
+body{
+    background: rgba(122, 159, 194, 0.521);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.assignment{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(241, 237, 237, 0.685);
+}
+
+.assignment img{
+    width: 200px;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(87, 31, 38);
+    text-align: center;
+}
