@@ -1,21 +1,27 @@
 body{
-    background: rgba(122, 159, 194, 0.521);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #f2e0c9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .assignment{
     display: flex;
     padding: 10px;
     margin: 10px;
-    background-color: rgba(241, 237, 237, 0.685);
+    background-color: #E9967A;
 }
 
 .assignment img{
     width: 200px;
-    padding: 10px;
+    border: 2px solid #401201;
+    margin-right: 20px;
 }
 
 h1{
-    color: rgb(87, 31, 38);
+    color: #CD5C5C;
     text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color: snow;
 }
