@@ -1,16 +1,22 @@
 body{
     background: #f2e0c9;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .assignment{
-    display: flex;
+    width: 30%;
     padding: 10px;
     margin: 10px;
     margin-bottom: 30px;
     background-color: #E9967A;
     border-radius: 5px;
-    box-shadow: 5px 10px #f2e0c9;
+    box-shadow: 5px 8px #421616;
 }
 
 .assignment img{
@@ -18,6 +24,8 @@ body{
     border: 2px solid #401201;
     margin-right: 20px;
     border-radius: 5px;
+    display: block;
+    margin: auto;
 }
 
 h1{
@@ -28,6 +36,7 @@ h1{
 a {
     text-decoration:none;
     color: snow;
+    text-align: center;
 }
 
 .assignment a:hover {
